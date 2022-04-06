@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "46c83097-6d0c-4de5-8516-6ad66fce4360": {
+      "ProjectGuid": "46c83097-6d0c-4de5-8516-6ad66fce4360",
+      "DisplayName": "DatingApp",
+      "ColorIndex": 0
+    },
+    "3daed02b-0f90-4d16-8826-4cc516cc478c": {
+      "ProjectGuid": "3daed02b-0f90-4d16-8826-4cc516cc478c",
+      "DisplayName": "API",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
