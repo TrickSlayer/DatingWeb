@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vOpAERYdukyDpQmm5ds9dQrDlEpUrbZFsYK/DWWQII7iRysvstGM/GrImJTgjkni93vEeGTdkr9i5z7x4yb8cg==",
+  "dgSpecHash": "XQca66BTBvCYprXDM3VdrPjMvjCJ/++LC3YuYis0MuX99jwfW3pB6K5maDubaaIGI+EuJNJVI637d8UJB/khcg==",
   "success": true,
   "projectFilePath": "D:\\UserData\\FPT\\Kì 6\\OJT\\DatingWeb\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\nghie\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.23\\microsoft.aspnetcore.authentication.jwtbearer.3.1.23.nupkg.sha512",
     "C:\\Users\\nghie\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\nghie\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\nghie\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
