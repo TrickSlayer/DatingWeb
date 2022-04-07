@@ -117,4 +117,3 @@ D:\UserData\FPT\Kì 6\OJT\DatingWeb\API\obj\Debug\net5.0\API.dll
 D:\UserData\FPT\Kì 6\OJT\DatingWeb\API\obj\Debug\net5.0\ref\API.dll
 D:\UserData\FPT\Kì 6\OJT\DatingWeb\API\obj\Debug\net5.0\API.pdb
 D:\UserData\FPT\Kì 6\OJT\DatingWeb\API\obj\Debug\net5.0\API.genruntimeconfig.cache
-D:\UserData\FPT\Kì 6\OJT\DatingWeb\API\obj\Debug\net5.0\API.csproj.AssemblyReference.cache

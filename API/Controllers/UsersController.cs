@@ -1,4 +1,5 @@
 ﻿using API.Data;
+using API.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,7 +11,7 @@ namespace API.Controllers
 {
     public class UsersController : BaseApiController
     {
-        public UsersController(DatingAppContext context) : base(context)
+        public UsersController(DatingAppContext context, ITokenService tokenService) : base(context, tokenService)
         {
         }
 
