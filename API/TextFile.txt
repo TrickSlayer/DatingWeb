@@ -1,0 +1,1 @@
+﻿dotnet ef dbcontext scaffold "Server=HOANGDAT; database=DatingApp; user=sa; password=12345678" Microsoft.EntityFrameWorkcore.SqlServer --output-dir Data -f

@@ -23,9 +23,9 @@ namespace API.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
-            {
+            {        
                 var config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
-                string ConnectionStr = config.GetConnectionString("ApDbConStr");                
+                string ConnectionStr = config.GetConnectionString("ApDbConStr");        
                 optionsBuilder.UseSqlServer(ConnectionStr);
             }
         }
@@ -39,6 +39,16 @@ namespace API.Data
                 entity.ToTable("AppUser");
 
                 entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.PasswordHash)
+                    .HasMaxLength(50)
+                    .HasColumnName("passwordHash")
+                    .IsFixedLength(true);
+
+                entity.Property(e => e.PasswordSalt)
+                    .HasMaxLength(50)
+                    .HasColumnName("passwordSalt")
+                    .IsFixedLength(true);
 
                 entity.Property(e => e.UserName)
                     .HasMaxLength(200)
