@@ -57,3 +57,4 @@ D:\UserData\FPT\Kì 6\OJT\DatingWeb\ConsoleApp1\bin\Debug\net5.0\runtimes\win\li
 D:\UserData\FPT\Kì 6\OJT\DatingWeb\ConsoleApp1\bin\Debug\net5.0\API.dll
 D:\UserData\FPT\Kì 6\OJT\DatingWeb\ConsoleApp1\bin\Debug\net5.0\API.pdb
 D:\UserData\FPT\Kì 6\OJT\DatingWeb\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.csproj.CopyComplete
+D:\UserData\FPT\Kì 6\OJT\DatingWeb\ConsoleApp1\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
