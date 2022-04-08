@@ -57,17 +57,9 @@ namespace API
 
             app.UseRouting();
 
-            app.UseCors(x => x
-                .AllowAnyHeader()
-                .AllowAnyOrigin()
-                .AllowAnyMethod()
-            );
+            app.AddApplicationBuilder();
 
-            app.UseHttpsRedirection();
-
-            app.UseAuthentication();
-
-            app.UseAuthorization();
+            app.AddIdentityBuilder();
 
             app.UseEndpoints(endpoints =>
             {

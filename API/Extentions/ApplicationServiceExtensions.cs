@@ -1,6 +1,7 @@
 ﻿using API.Data;
 using API.Interfaces;
 using API.Services;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -14,6 +15,17 @@ namespace API.Extentions
             services.AddDbContext<DatingAppContext>();
 
             return services;
+        }
+
+        public static IApplicationBuilder AddApplicationBuilder(this IApplicationBuilder app)
+        {
+            app.UseCors(x => x
+                .AllowAnyHeader()
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+            );
+
+            return app;
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
@@ -20,11 +21,20 @@ namespace API.Extentions
                         ValidateIssuer = false,
                         ValidateAudience = false,
                     };
-                }
-
-                );
+                });
 
             return services;
+        }
+
+        public static IApplicationBuilder AddIdentityBuilder(this IApplicationBuilder app)
+        {
+            app.UseHttpsRedirection();
+
+            app.UseAuthentication();
+
+            app.UseAuthorization();
+
+            return app;
         }
     }
 }
