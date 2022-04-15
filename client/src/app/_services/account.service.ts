@@ -19,8 +19,8 @@ export class AccountService {
       map((response: any) => {
         const user = response;
         if (user) {
-          this.currentUserSource.next(user);
           localStorage.setItem('user', JSON.stringify(user));
+          this.currentUserSource.next(user);
         }
       })
     );
